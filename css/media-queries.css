@@ -1,0 +1,308 @@
+@media screen and (max-width: 768px) {
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+
+/* ================ Media Query for Navbar =============== */
+@media screen and (max-width: 1324px) {
+    .navbar {
+        padding: 50px 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .nav__logo {
+        margin-right: 50px;
+    }
+
+    .nav__links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        background: var(--secondary-color);
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+        padding: 20px;
+    }
+
+    .nav__links.active {
+        display: flex;
+    }
+
+    .nav__btns {
+        display: none;
+    }
+
+    .nav__mobile {
+        display: flex;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 24px 20px;
+    }
+
+    .nav__logo {
+        width: 60px;
+    }
+}
+
+
+
+
+/* ================ Media Query for Hero Section =============== */
+@media screen and (max-width: 856px) {
+    .hero__container {
+        padding-top: 15px;
+        padding: 15px 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__container {
+        padding: 0px;
+        padding-top: 41px;
+    }
+
+    .hero__content {
+        gap: 16px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 43.88px;
+    }
+
+    .hero__description {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .subscribe__input {
+        width: 335px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .hero__container {
+        gap: 40px;
+    }
+
+    .subscribe__bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .divider-container {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .subscribe__input {
+        width: 250px;
+    }
+}
+
+/* ================ Media Query for Services =============== */
+@media screen and (max-width: 1104px) {
+    .services__section {
+        padding: 100px 30px;
+    }
+
+    .services__card {
+        gap: 30px;
+    }
+}
+
+
+@media screen and (max-width: 994px) {
+    .services__head {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .services__section {
+        padding: 60px 30px;
+    }
+
+    .services__head {
+        padding: 0;
+    }
+
+    .services__head .services__title {
+        font-size: 28px;
+        line-height: 36.4px;
+        margin-bottom: 20px;
+    }
+
+    .services__head .services__description {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 24px;
+    }
+
+    .services__cards {
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .services__section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+
+/* ================ Media Query for Stats Sections =============== */
+
+@media screen and (max-width: 1027px) {
+    .stats__section {
+        padding: 0px 20px;
+        color: white;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .stats__main {
+        padding: 48px 0;
+
+    }
+
+    .stats__content {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .stat .number {
+        font-size: 36px;
+        line-height: 43.88px;
+        margin-bottom: 4px;
+    }
+    
+    .stat .label {
+        font-size: 12px;
+        line-height: 14.63px;
+    }
+    .stats__signup{
+        padding: 13px 34px;
+        font-size: 14px;
+    }
+}
+
+/* ================ Media Query for Info Sections =============== */
+@media screen and (max-width: 1100px) {
+    .info__section {
+        padding: 130px 20px;
+    }
+    .info__container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .info__section {
+        padding: 60px 20px;
+    }
+    
+    .info__content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .info__title{
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .info__description{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+    .info__subtitle{
+        font-size: 28px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .info__content ul li{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .info__button{
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .info__section {
+        padding: 0px 20px;
+        padding-bottom: 60px;
+    }
+    .info__image{
+        width: 100%;
+        max-width: 335px;
+        height: 285px;
+        object-fit: fill;
+    }
+}
+
+/* ================ Media Query for Footer Section =============== */
+@media screen and (max-width:1270px) {
+    .footer__section{
+        padding: 40px 30px;
+    }
+}
+@media screen and (max-width:768px) {
+    .footer__logo{
+        width: 100%;
+    }
+    .footer__logo img {
+        width: 100%;
+        margin: 0 auto;;
+        max-width: 100px;
+    }
+    .footer__container{
+        justify-content: center;
+    }
+    .footer__menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .footer__links{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .menu__links{
+        gap: 20px;
+    }
+    .footer__social{
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .footer__details{
+        max-width: 100%;
+        text-align: center;
+    }
+}
